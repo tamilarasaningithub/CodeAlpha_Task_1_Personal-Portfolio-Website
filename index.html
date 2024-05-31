@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Contact Information and Logos -->
+        <div class="contact-info">
+            <a href="mailto:jtamilarasan917@gmail.com"><img src="images/mail.jpeg" alt="Email"></a>
+            <a href="https://www.instagram.com/tamilarasanj_2004/"><img src="images/insta.jpg" alt="Instagram"></a>
+            <a href="tel:+91 8220145110"><img src="images/contact.jpeg" alt="Phone"></a>
+            <a href="https://www.linkedin.com/in/tamilarasan-j-86406a25a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="images/linkedin.jpeg" alt="LinkedIn"></a>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <img src="images/profile.jpg" alt="Profile Picture" class="profile-pic">
+            <div class="about-text">
+                <p>Hello! My name is J. Tamilarasan, and I am currently pursuing a Bachelor's degree in Mechanical Engineering at Sri Eshwar College of Engineering in Coimbatore. My educational journey has provided me with a solid understanding of mechanical engineering principles and exposure to industry-standard software like AutoCAD and SolidWorks, where I have a working knowledge of design adjustments.
+
+                    In addition to my mechanical engineering studies, I have developed a keen interest in data science and web development. I have been learning Python, MySQL, and Tableau software to expand my skills in data science. Simultaneously, I am gaining proficiency in web development technologies including HTML, CSS, and JavaScript. My passion for web development drives me to continuously learn and explore new concepts, ensuring that I stay updated with the latest trends and technologies.
+                    
+                    I am a dedicated and motivated individual who is eager to understand and fulfill user and company needs. My approach to learning is thorough; I take the time to delve deeply into topics to ensure a comprehensive understanding. This meticulous approach enables me to work efficiently and effectively.
+                    
+                    My professional goals are to become a proficient data scientist and web developer, contributing to a reputable company with a strong infrastructure. I am committed to lifelong learning and strive to bring value to any organization I join by leveraging my skills and knowledge.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill top">
+                <img src="images/html.jpeg" alt="HTML" class="skill-image">
+                <p>HTML - Hypertext Markup Language</p>
+            </div>
+            <div class="skill top-right">
+                <img src="images/css.jpg" alt="CSS" class="skill-image">
+                <p>CSS - Cascading Style Sheets</p>
+            </div>
+            <div class="skill right">
+                <img src="images/js.jpeg" alt="JavaScript" class="skill-image">
+                <p>JavaScript - JS Programming Language</p>
+            </div>
+            <div class="skill bottom-right">
+                <img src="images/python.jpeg" alt="Python" class="skill-image">
+                <p>Python - Python Programming Language</p>
+            </div>
+            <div class="skill bottom">
+                <img src="images/mysql.png" alt="MySQL" class="skill-image">
+                <p>MySQL - MySQL Database Management</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Intensity cyclone Tracker</h3>
+            <p>Traditional methods for Intensity estimation require accurate center determination for intensity estimation. intensity estimation during the initial stage of cyclone formation when determination of accurate center becomes difficult. Sequence We have used python along with html, css and created a Website that intimates and alerts the user when there is a cyclone approaching. In this basic case we have only created a website, on given time we would complete the app creation
+                This calculates the data of two images (one live and other one of past years) It checks the similarity between the two images and the data given it it. Then it provides the output whether the probability of cyclone is less or more We have used python, tensorflow, keras software for this project.
+                <br><br>
+                BENEFITS:-
+                <br><br>
+                Using this application we can predict the intensity of the cyclone approaching and alert the areas in the region of vulnerability
+                It can be used even by a illiterate person to know about the cyclone approaching</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
